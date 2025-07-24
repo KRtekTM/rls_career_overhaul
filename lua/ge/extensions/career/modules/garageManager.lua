@@ -243,7 +243,7 @@ local function isGarageSpace(garage)
 end
 
 local function getFreeSlots()
-  local totalCapacity = 0
+  local totalCapacity = 100
   for garage, owned in pairs(purchasedGarages) do
     if not owned then goto continue end
     local space = isGarageSpace(garage)
