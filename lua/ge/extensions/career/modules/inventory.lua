@@ -16,7 +16,7 @@ local xVec, yVec, zVec = vec3(1,0,0), vec3(0,1,0), vec3(0,0,1)
 
 local saveAnyVehiclePosDEBUG = true
 
-local slotAmount = 5
+local slotAmount = 99
 
 local vehicles = {}
 local dirtiedVehicles = {}
